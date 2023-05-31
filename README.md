@@ -33,3 +33,5 @@ The code featured in the second commit "Starter Code" was taken from the followi
 I also used information from this site, based on the "potential-enigma" readme: [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
 I used various learning resources like Stack Overflow and W3 schools to help with random questions I had. 
+
+I used the Inquirer.js documentation to figure out how to write much of it.
