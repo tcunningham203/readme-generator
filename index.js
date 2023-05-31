@@ -12,13 +12,13 @@ const questions = [
     {
         name: 'title',
         type: 'input',
-        message: 'Please provide the title of your README file, then press enter.',
+        message: 'Please provide the title of your application, then press enter.',
         
     },
     {
         name: 'desc',
         type: 'input',
-        message: 'Please provide a short description of your README file, then press enter.',
+        message: 'Please provide a short description of your application, then press enter.',
         
     },
 
@@ -49,8 +49,29 @@ const questions = [
         message: 'Please provide any instructions you may have for testing, then press enter.',
         
     },
-
-   
+    {
+        name: 'license',
+        type: 'list',
+        message: 'Would you like to add a license to your project? If so, please choose from the following four options. If you do not wish to add a license, please select option five.',
+        choices: [
+            "an MIT license.",
+            "an Apache license.",
+            "a Mozilla license.",
+            "Unlicense, a public domain equivalent license.",
+            "no license at this time."
+        ],
+        
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Please provide your GitHub username for the purpose of allowing others to contact you if they have additional questions, then press enter.',
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Please provide your email address as well, to provide an alternate way for users to reach you, then press enter.',
+    },
 
 
 ];
@@ -67,7 +88,8 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
 
-// This code was taken directly from the inquirer documentation.
+// The code within this function was largely taken from the inquirer documentation.
+
 inquirer
   .prompt(questions)
   .then((answers) => {

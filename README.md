@@ -1,8 +1,8 @@
-# readme-generator
+# Professional README Generator
 
 
 ## Description
-This is a command line application that generates a readme for a project.
+This is a command line application that generates a professional README.md file for your project.
 
 ## Table of Contents
 - [Video](#video)
@@ -21,6 +21,12 @@ As per the instructions, there is no link to the deployed application as with th
 This is what the console looks like when the README is being generated. In the following screenshot, the questions have already been answered.
 
 ![AppScreenshot1](/assets/screenshots/WEBSITE-SCREENSHOT.png?raw=true "Screenshot of Deployed Application- Instruction Screen")
+
+## Usage
+
+Here is some information about how to use this README generator.
+
+
 
 ## Development
 In this section, I'll briefly discuss some of the challenges and successes with the project, as well as goals for the future. 
