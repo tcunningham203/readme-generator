@@ -1,7 +1,7 @@
-# Best Project Ever
+# d
   
   ## Description
-  This project is meant to change minds forever with its revolutionary tech.
+  d
 
   ## Table of Contents
   - [Installation](#installation)
@@ -12,22 +12,27 @@
   - [Questions](#questions)
 
   ## Installation
-  Put the thing in the thing. It's that simple.
+  d
 
   ## Usage
-  We've got features like you wouldn't believe. People can't stop talking about these features!
+  d
 
   ## Contributing
-  If you want to contribute to the best project ever, you can do so with no restrictions. Just be nice to your fellow humans.
+  d
 
   ## Tests
-  Activite the tests by pressing up up down down left right left right B A START.
+  d
 
   ## License
-  This application uses Unlicense, a public domain equivalent license.
+
+This application is covered under no license at this time.
+
+  
 
   ## Questions
 
   For additional questions, comments, or concerns, the creator can be reached via GitHub or email.
 
-  
+  GitHub: [d](https://github.com/d)
+
+  Email: d

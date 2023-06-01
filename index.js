@@ -52,11 +52,11 @@ const questions = [
     {
         name: 'license',
         type: 'list',
-        message: 'Would you like to add a license to your project? If so, please choose from the following four options. If you do not wish to add a license, please select option five.',
+        message: 'Would you like to add a license to your project? If so, please choose from the following four options. If you do not wish to add a license, please select option five. Use the up and down arrow keys to select an option, then press enter.',
         choices: [
             "an MIT license.",
             "an Apache license.",
-            "a Mozilla license.",
+            "a Mozilla public license.",
             "Unlicense, a public domain equivalent license.",
             "no license at this time."
         ],
